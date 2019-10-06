@@ -58,6 +58,7 @@ a:hover {
 header {
   text-align: center;
   background: url('images/rsz_st_louis_night.jpg') no-repeat top center ;
+  /* Photo By Daniel Schwen, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3460238 */
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,12 +70,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 20%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.75) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -99,7 +100,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #13e600;
 }
 
 ul.skills {
@@ -110,14 +111,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #13e600;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #092cdb;
 }
 
 footer {
@@ -202,6 +203,3 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
-}
-
