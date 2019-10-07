@@ -57,11 +57,13 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/rsz_st_louis_night.jpg') no-repeat top center ;
+  background: url('images/rsz_st_louis_night.jpg') no-repeat top center;
   /* Photo By Daniel Schwen, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3460238 */
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
+  position: absolute top;
+  size: relative;
 }
 header {
   line-height: 1.5;
