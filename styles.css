@@ -93,6 +93,7 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
+  min-width: 500px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -202,4 +203,7 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+  .hobby_pic {
+    max-width: 75%;
   }
